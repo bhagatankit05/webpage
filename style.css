@@ -1,16 +1,26 @@
 /* General body styling */
 body {
-    background-color: #f8f9fa;
+    background: url('sbjitmr.jpg') no-repeat center center;
+    background-size: 51%; /* Ensure the image covers the entire viewport */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
 }
 
 /* Container styling */
 .container {
     max-width: 600px;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 30px; /* Increased padding for better spacing */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Center the container horizontally */
+    margin-top: 5rem; /* Ensure spacing from the top for visibility */
+    position: relative; /* Position relative for centering */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust position to center container vertically */
 }
 
 /* Heading styling */
@@ -86,6 +96,7 @@ h2 {
 @media (max-width: 576px) {
     .container {
         padding: 15px;
+        margin-top: 2rem; /* Adjust top margin for smaller screens */
     }
 
     .btn-primary {
