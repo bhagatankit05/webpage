@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('camp.jpg'); /* Replace 'background.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent to show background */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border: 3px solid #ff9800; /* Bright border */
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4caf50; /* Green heading */
+            font-size: 24px;
+            text-decoration: underline; /* Underline the heading */
+        }
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #607d8b; /* Blue-gray text */
+        }
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            color: #e91e63; /* Pink list items */
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #ff5722; /* Orange links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2196f3; /* Blue button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #1976d2; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome to Campus Registration</h2>
+    <p>
+        We are excited to have you join our campus community! To ensure a smooth registration process, please read the following instructions carefully before proceeding:
+    </p>
+    <ul>
+        <li>Ensure you have all necessary documents ready before filling out the form.</li>
+        <li>The registration deadline is <strong>September 30th, 2024</strong>. Please submit your application before this date.</li>
+        <li>For any queries, feel free to contact our support team at <a href="mailto:support@campus.edu">support@campus.edu</a>.</li>
+    </ul>
+    <p>
+        Once you are ready, click the button below to start the registration process.
+    </p>
+    <button onclick="openRegistrationForm()">Open Registration Form</button>
+</div>
+
+<script>
+    function openRegistrationForm() {
+        window.location.href = 'webpage.html'; 
+    }
+</script>
+
+</body>
+</html>
